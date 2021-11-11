@@ -17,4 +17,4 @@ document.addEventListener("DOMSubtreeModified", function () {
         clearTimeout(timeout);
     }
     timeout = setTimeout(substitute, 50);
-}, false);
+}, false); 
